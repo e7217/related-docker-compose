@@ -11,7 +11,7 @@ services:
     - 59881:59881
     - 59882:59882
     volumes:
-      - ./nginx/logs:/var/log/nginx
+      # - ./nginx/logs:/var/log/nginx
       - ./nginx/config/conf.d:/etc/nginx/conf.d/
       - ./nginx/config/nginx.conf:/etc/nginx/nginx.conf
 
